@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LKSN2018" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ACER-NOTEBOOK;Initial Catalog=LKSN2018;Integrated Security=True" SettingsObjectName="SMK_Restaurant.Properties.Settings" SettingsPropertyName="LKSN2018ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Detailorder" Member="Detailorders">
+    <Type Name="Detailorder">
+      <Column Name="DetailID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OrderID" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="MenuID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Qty" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="Msmenu_Detailorder" Member="Msmenu" ThisKey="MenuID" OtherKey="MenuID" Type="Msmenu" IsForeignKey="true" />
+      <Association Name="Headerorder_Detailorder" Member="Headerorder" ThisKey="OrderID" OtherKey="OrderID" Type="Headerorder" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Msemployee" Member="Msemployees">
+    <Type Name="Msemployee">
+      <Column Name="EmployeeID" Type="System.String" DbType="NChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Handphone" Type="System.String" DbType="NVarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="Position" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Msemployee_Headerorder" Member="Headerorders" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="Headerorder" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Msmember" Member="Msmembers">
+    <Type Name="Msmember">
+      <Column Name="MemberID" Type="System.String" DbType="NChar(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Handphone" Type="System.String" DbType="NVarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="JoinDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="Msmember_Headerorder" Member="Headerorders" ThisKey="MemberID" OtherKey="MemberID" Type="Headerorder" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Msmenu" Member="Msmenus">
+    <Type Name="Msmenu">
+      <Column Name="MenuID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Photo" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="Msmenu_Detailorder" Member="Detailorders" ThisKey="MenuID" OtherKey="MenuID" Type="Detailorder" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Headerorder" Member="Headerorders">
+    <Type Name="Headerorder">
+      <Column Name="OrderID" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.String" DbType="NChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="MemberID" Type="System.String" DbType="NChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Payment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Bank" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CardNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Headerorder_Detailorder" Member="Detailorders" ThisKey="OrderID" OtherKey="OrderID" Type="Detailorder" />
+      <Association Name="Msemployee_Headerorder" Member="Msemployee" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="Msemployee" IsForeignKey="true" />
+      <Association Name="Msmember_Headerorder" Member="Msmember" ThisKey="MemberID" OtherKey="MemberID" Type="Msmember" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Msincome" Member="Msincomes">
+    <Type Name="Msincome">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Income" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Mspackage" Member="Mspackages">
+    <Type Name="Mspackage">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CountMeat" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CountVegetable" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MaxOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

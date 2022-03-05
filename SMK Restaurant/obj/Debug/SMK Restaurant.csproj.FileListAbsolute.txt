@@ -1,0 +1,47 @@
+D:\SMK Restaurant\SMK Restaurant\bin\Debug\SMK Restaurant.exe.config
+D:\SMK Restaurant\SMK Restaurant\bin\Debug\SMK Restaurant.exe
+D:\SMK Restaurant\SMK Restaurant\bin\Debug\SMK Restaurant.pdb
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK Restaurant.csprojAssemblyReference.cache
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.Properties.Resources.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK Restaurant.csproj.GenerateResource.cache
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK Restaurant.csproj.CoreCompileInputs.cache
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK Restaurant.exe
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK Restaurant.pdb
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmAdminNav.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmLogin.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmManageEmployee.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmManageMember.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmManageMenu.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmChangePass.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmCashierNav.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmChefNav.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmOrder.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmViewOrder.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmPayment.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmAnmountCash.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmReport.resources
+D:\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmIncome.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\bin\Debug\SMK Restaurant.exe.config
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\bin\Debug\SMK Restaurant.exe
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\bin\Debug\SMK Restaurant.pdb
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK Restaurant.csprojAssemblyReference.cache
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmAdminNav.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmAnmountCash.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmCashierNav.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmChangePass.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmChefNav.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmIncome.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmLogin.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmManageEmployee.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmManageMember.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmManageMenu.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmOrder.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmPayment.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmReport.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmViewOrder.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.Properties.Resources.resources
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK Restaurant.csproj.GenerateResource.cache
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK Restaurant.csproj.CoreCompileInputs.cache
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK Restaurant.exe
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK Restaurant.pdb
+D:\LKS\LKS IT Software Solution\SMK Restaurant\SMK Restaurant\obj\Debug\SMK_Restaurant.FrmManagePackage.resources
